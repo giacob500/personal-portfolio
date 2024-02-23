@@ -65,12 +65,29 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-light custom-navbar">
+  <!-- Mobile Navbar with Burger Menu -->
+  <nav class="navbar navbar-light custom-navbar d-md-none">
     <div class="container">
       <a class="navbar-brand" href="index.html" style="margin-left: 10px;">MyPortfolio.</a>
       <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar" style="margin-right: 10px;">
+        <!-- Add margin to the right for smartphone screens-->
         <span></span>
       </a>
+    </div>
+  </nav>
+  <!-- Desktop Navbar -->
+  <nav class="navbar navbar-light custom-navbar-2 custom-navmenu-2 d-none d-md-block">
+    <div class="container">
+      <div class="row align-items-start">
+        <ul class="custom-menu-2">
+          <li><a class="navbar-brand" href="index.html" style="margin-left: 10px;">MyPortfolio.</a></li>
+          <!--<li class="active"><a href="index.html">Home</a></li>-->
+          <li><a href="about.html">About Me</a></li>
+          <!--<li><a href="services.html">Services</a></li>
+          <li><a href="works.html">Works</a></li>-->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -128,13 +145,14 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial">
-                  <img src="assets/img/rachael.png" alt="Image" class="img-fluid">
+                  <p>&#11088;&#11088;&#11088;&#11088;&#11088;<br>
                   <blockquote>
-                    <p>Giacomo is recognised across the division as being reliable, enthusiastic and hard working. He is
+                    <p>"Giacomo is recognised across the division as being reliable, enthusiastic and hard working. He is
                       focused, logical and consistently thorough in all areas of his work and has been praised by Senior
-                      Management for his output and his impressive ability to learn new skills quickly.</p>
+                      Management for his output and his impressive ability to learn new skills quickly."</p>
                   </blockquote>
-                  <p>&mdash; Rachael Anderson</p>
+                  <p>Rachael Anderson<br>
+                    Service Desk Manager &mdash; The Scottish Government</p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -142,11 +160,13 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial">
-                  <img src="assets/img/marco.jpg" alt="Image" class="img-fluid">
+                  <p>&#11088;&#11088;&#11088;&#11088;&#11088;<br>
                   <blockquote>
-                    <p>Giacomo is an exemplary professional with exceptional technical prowess and a strong commitment to excellence. His proficiency in languages like Python, SQL, and JavaScript, coupled with frameworks such as Flask and Bootstrap, enables him to deliver innovative solutions effectively.                    </p>
+                    <p>"Giacomo is an exemplary professional with exceptional technical prowess and a strong commitment to excellence. His proficiency in languages like Python, SQL, and JavaScript, coupled with frameworks such as Flask and Bootstrap, enables him to deliver innovative solutions effectively."</p>
                   </blockquote>
-                  <p>&mdash; Marco Vavassori</p>
+                  <p>Marco Vavassori<br>
+                    Software Engineer &mdash; CARET
+                  </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->

@@ -57,14 +57,31 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-light custom-navbar">
+  <!-- Mobile Navbar with Burger Menu -->
+  <nav class="navbar navbar-light custom-navbar d-md-none">
     <div class="container">
-        <a class="navbar-brand" href="index.html" style="margin-left: 10px;">MyPortfolio.</a>
-        <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar" style="margin-right: 10px;"> <!-- Add margin to the right -->
-            <span></span>
-        </a>
+      <a class="navbar-brand" href="index.html" style="margin-left: 10px;">MyPortfolio.</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar" style="margin-right: 10px;">
+        <!-- Add margin to the right for smartphone screens-->
+        <span></span>
+      </a>
     </div>
-</nav>
+  </nav>
+  <!-- Desktop Navbar -->
+  <nav class="navbar navbar-light custom-navbar-2 custom-navmenu-2 d-none d-md-block">
+    <div class="container">
+      <div class="row align-items-start">
+        <ul class="custom-menu-2">
+          <li><a class="navbar-brand" href="index.html" style="margin-left: 10px;">MyPortfolio.</a></li>
+          <!--<li class="active"><a href="index.html">Home</a></li>-->
+          <li><a href="about.html">About Me</a></li>
+          <!--<li><a href="services.html">Services</a></li>
+          <li><a href="works.html">Works</a></li>-->
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <main id="main">
 
@@ -123,7 +140,7 @@
             <ul class="list-unstyled">
               <li class="mb-3">
                 <strong class="d-block mb-1">Address</strong>
-                <span>Edinburgh, United kingdom</span>
+                <span>Edinburgh, Scotland, United kingdom</span>
               </li>
               <li class="mb-3">
                 <strong class="d-block mb-1">Phone</strong>
