@@ -4,3 +4,7 @@ Template Name: MyPortfolio
 Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
+
+CORRECTIONS FROM LECTURER
+-cv button should be downloaded after cv on website
+-not include ref lett, make it downloadable
