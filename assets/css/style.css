@@ -644,9 +644,12 @@ h6,
 .badge {
   width: 150px;
   height: 270px;
+  margin:auto;
 }
 
 .badge img {
-  max-width: 105px;
-  max-height: 105px;
+  /* min-width: 105px;
+  min-height: 105px; */
+  width: 105px;
+  height: 105px;
 }
