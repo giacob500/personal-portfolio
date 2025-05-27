@@ -1,6 +1,6 @@
 ## Personal Portfolio Website
 
-The website is available at **https://giacomolorenzi.info/**
+The website is available at **https://giacomol.great-site.net/**
 
 The website is still under development and it was built to show the projects which I worked on so far.
 
